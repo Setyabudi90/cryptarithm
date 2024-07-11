@@ -72,7 +72,7 @@ function App() {
             };
           }
         } catch (e) {
-          continue; // Ignore invalid expressions
+          continue;
         }
       }
     }
