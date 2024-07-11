@@ -29,7 +29,7 @@ function App() {
             ${result.steps.map((step) => `<li>${step}</li>`).join("")}
           </ul>
           <p>Waktu komputasi: ${
-            timeTaken < 1000 ? `${timeTaken} ms` : `${(timeTaken / 1000).toFixed(2)} s`
+            timeTaken < 1000 ? `${timeTaken} ms` : `${(timeTaken / 1000).toFixed(2)} detik`
           }</p>
         `;
       } catch (error) {
